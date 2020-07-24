@@ -58,8 +58,8 @@
     </div>
 
     <script type="text/javascript">
-      $("#search-btn").on("click", function () {
-        val searchedCharacter = $("#character-search").val().trim();
+      $("#search-btn").on("click", () => {
+        let searchedCharacter = $("#character-search").val().trim();
 
         // Using a RegEx Pattern to remove spaces from searchedCharacter
         // You can read more about RegEx Patterns later https://www.regexbuddy.com/regex.html
